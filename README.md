@@ -8,9 +8,9 @@ File Download System
 First register with username and password, a file with username.txt will be created. Then you can login to see file contents.
 [Upload File content not implemented] 
 
-# Run on linux terminal command 
+# Run on linux terminal 
 <br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
-<br/>└─$ g++ endecrypt.cpp -lcrypto
+<br/>└─$ g++ login.cpp -lcrypto
                                                                                                                                                                        
 <br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
 <br/>└─$ ./a.out                   
