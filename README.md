@@ -1,15 +1,15 @@
 # File-Download-System
 File Download System
-\nOS: Linux
-\nLanguage: C++
-\nLibraries: OpenSSL
+<br/>OS: Linux
+<br/>Language: C++
+<br/>Libraries: OpenSSL
 
 #Function
 First register with username and password, a file with username.txt will be created. Then you can login to see file contents.
 [Upload File content not implemented] 
 
 #Run on linux terminal command 
-\n┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
+<br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
 └─$ g++ endecrypt.cpp -lcrypto
                                                                                                                                                                        
 ┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
