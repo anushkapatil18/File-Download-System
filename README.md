@@ -2,7 +2,7 @@
 File Download System
 <br/>OS: Linux
 <br/>Language: C++
-<br/>Libraries: OpenSSL
+<br/>Library: OpenSSL
 
 # Function
 First register with username and password, a file with username.txt will be created. Then you can login to see file contents.
