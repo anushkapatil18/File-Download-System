@@ -10,40 +10,40 @@ First register with username and password, a file with username.txt will be crea
 
 # Run on linux terminal command 
 <br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
-└─$ g++ endecrypt.cpp -lcrypto
+<br/>└─$ g++ endecrypt.cpp -lcrypto
                                                                                                                                                                        
-┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
-└─$ ./a.out                   
+<br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
+<br/>└─$ ./a.out                   
 
-1. Register
-2. Login
+<br/>1. Register
+<br/>2. Login
 
-Your choice: 1
-Register 
+<br/>Your choice: 1
+<br/>Register 
 
-Enter username: admin1
-Enter password: admin1
-EVP_EncryptUpdate() failed: Success
-Welcome admin1!
+<br/>Enter username: admin1
+<br/>Enter password: admin1
+<br/>EVP_EncryptUpdate() failed: Success
+<br/>Welcome admin1!
                                                                                                                                                                        
-┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
-└─$ ./a.out                   
+<br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
+<br/>└─$ ./a.out                   
 
-1. Register
-2. Login
+<br/>1. Register
+<br/>2. Login
 
-Your choice: 2
-Login 
+<br/>Your choice: 2
+<br/>Login 
 
-Enter username: admin1
-Enter password: admin1
-Logg In Success!
-Welcome back!
+<br/>Enter username: admin1
+<br/>Enter password: admin1
+<br/>Logg In Success!
+<br/>Welcome back!
 
-Your Files
-Files: 
+<br/>Your Files
+<br/>Files: 
 
-1. Sign Out
-2. Back to menu
-Your choice: 
-1
+<br/>1. Sign Out
+<br/>2. Back to menu
+<br/>Your choice: 
+<br/>1
