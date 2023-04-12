@@ -48,6 +48,20 @@ The above code contains the classes User, ACL, and ContentServer that constitute
 6. The resulting ciphertext is concatenated with the salt and IV and encoded using Base64. The salt and IV are included with the ciphertext to allow the decryption process to reproduce the same key and IV used for encryption.
 7. That's a high-level overview of the encryption process used in this code.
 
+<br><br>
+
+## Decryption Module
+1. Convert the encrypted text into bytes using the base64 decoding method.
+2. Use the initialization vector (iv) and the secret key to create a new instance of the AES cipher in CBC mode.
+3. Decrypt the encrypted text using the AES cipher and the iv.
+4. Remove any padding added during the encryption process.
+
+- This process uses the AES symmetric key encryption algorithm in CBC mode to decrypt the encrypted text. 
+- The initialization vector (iv) is used to ensure that the same plaintext does not result in the same ciphertext when encrypted multiple times with the same key. 
+- The secret key used to decrypt the text must be the same as the one used to encrypt it. 
+- The base64 encoding is used to convert the encrypted text from a string into bytes, which can be decrypted by the AES cipher. 
+- Finally, the padding added during the encryption process is removed to obtain the original plaintext.
+
 <br>
 <hr>
 
@@ -122,31 +136,16 @@ g++ login.cpp -lcrypto
 <br/>Your choice: 
 <br/>1
 
-# main.cpp
-<br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
-<br/>└─$ g++ maine.cpp -o my_program -lcrypto
+# maine.cpp
 
 ```cmd
 g++ maine.cpp -o my_program -lcrypto
 ```
-                                                                                                                                                                    
-<br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
-<br/>└─$ ./my_program                        
-<br/>Filekey for file1.txt: �<�((����W1*a
-<br/>                                    �kI�%�F▒QT���+�
-<br/>Filekey for file2.pdf: +t�x8�G����F�����I��n5*"�c���
-<br/>Filekey for file3.jpg: }Q�Q_Hfs�� �4��2���`���%td'��
-<br/>Available files:
-<br/>file1.txt
-<br/>file2.pdf
-<br/>file3.jpg
-<br/>Enter your username: user2
-<br/>Enter your password: password2
-<br/>Enter the name of the file you want to download: file2.pdf
-<br/>File key in vector: +t�x8�G����F�����I��n5*"�c���
-<br/>File key converted: +t�x8�G����F�����I��n5*"�c���
-<br/>File downloaded successfully.
-<br>
+
+<p align="center">
+<img  src="https://user-images.githubusercontent.com/72455881/231432357-01781ebe-e9fe-4c8e-8be8-b6289c12ae39.jpeg" alt="logo">
+  
+</p>                                                                                                                                            
 
 <hr>
 
