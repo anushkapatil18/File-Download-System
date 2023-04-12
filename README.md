@@ -5,7 +5,7 @@ File Download System
 <br/>Library: OpenSSL
 
 # Function
-#Login.cpp
+# Login.cpp
 First register with username and password, a file with username.txt will be created. Then you can login to see file contents.
 [Upload File content not implemented] 
 
@@ -49,7 +49,7 @@ First register with username and password, a file with username.txt will be crea
 <br/>Your choice: 
 <br/>1
 
-#maine.cpp
+# maine.cpp
 <br/>┌──(kali㉿kali)-[~/Desktop/CodeChallenge]
 <br/>└─$ g++ maine.cpp -o my_program -lcrypto
                                                                                                                                                                        
